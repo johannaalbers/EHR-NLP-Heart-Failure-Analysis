@@ -1,0 +1,25 @@
+# Credentials - NEVER commit
+creds.txt
+*.creds
+.env
+.Renviron
+
+# Data - never commit MIMIC-III
+*.csv
+*.RData
+*.rda
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# System junk
+.DS_Store
+Thumbs.db
