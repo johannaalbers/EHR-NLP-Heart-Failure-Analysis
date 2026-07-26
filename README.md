@@ -81,17 +81,9 @@ Clinical text mining · Regular expressions on unstructured electronic health re
 - **Regex works well on formulaic text and fails on prose.** Medication extraction succeeds where discharge summaries follow the standard `drug / dose / unit` pattern and degrades on compound formulations, free-text instructions, and non-standard abbreviations. The notebook documents the failure cases rather than reporting only the successes.
 - **Text-derived medications do not fully agree with the structured PRESCRIPTIONS table.** Neither source is a clean gold standard. The discrepancies are documented, because in real-world evidence work the disagreement between sources is usually the finding.
 
-<!-- TO FILL: replace with your real numbers before publishing -->
-<!-- - Discharge summaries and echocardiogram reports parsed: N -->
-<!-- - LVEF values extracted: N -->
-<!-- - Heart failure admissions in the final cohort: N -->
-<!-- - Implausible LVEF values removed: N -->
-
 ---
 
-## What I did
-
-<!-- TO FILL: state solo or group. If group, name your stage. Do not leave this ambiguous. -->
+## The pipeline
 
 1. **Comorbidity analysis.** Queried co-occurring diagnoses around heart failure and interpreted the patterns clinically rather than just tabulating them.
 2. **Cohort construction (SQL).** Built a cohort of admissions where heart failure is the *primary* diagnosis, not merely present, so that the analysis is about heart failure patients rather than patients who happen to have it.
