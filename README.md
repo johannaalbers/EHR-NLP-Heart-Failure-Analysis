@@ -129,17 +129,6 @@ To reproduce: complete CITI training, obtain credentialed access via [PhysioNet]
 
 ---
 
-## Repository contents
-
-```
-├── Notebook/    MIMIC-III_HeartFailure.ipynb  (R, outputs cleared)
-├── figures/     Aggregate LVEF distributions
-├── README.md
-└── setup.R
-```
-
----
-
 ## Skills demonstrated
 
 Clinical text mining · Regular expressions on unstructured electronic health record (EHR) notes · SQL cohort construction · Data quality forensics · Real-world data (RWD) · Clinical interpretation · R
