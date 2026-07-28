@@ -122,6 +122,9 @@ MIMIC-III v1.4, accessed under a credentialed PhysioNet Data Use Agreement.
 
 **No patient-level data, raw or derived, is contained in this repository.** All notebook outputs have been cleared. Published figures are aggregate distributions only. Database credentials are read at runtime from a local `creds.txt`, which is excluded from version control.
 
+## Reproducing this analysis
+This analysis requires credentialed MIMIC-III access through PhysioNet and a connection to the host institution's database. It cannot be reproduced without both.
+
 To reproduce: complete CITI training, obtain credentialed access via [PhysioNet](https://physionet.org/content/mimiciii/), load MIMIC-III locally, and supply your own connection details.
 
 ---
