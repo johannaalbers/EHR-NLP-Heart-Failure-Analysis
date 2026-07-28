@@ -125,7 +125,7 @@ MIMIC-III v1.4, accessed under a credentialed PhysioNet Data Use Agreement.
 ## Reproducing this analysis
 This analysis requires credentialed MIMIC-III access through PhysioNet and a connection to the host institution's database. It cannot be reproduced without both.
 
-To reproduce: complete CITI training, obtain credentialed access via [PhysioNet](https://physionet.org/content/mimiciii/), load MIMIC-III locally, and supply your own connection details.
+To reproduce: complete CITI training, obtain credentialed access via [PhysioNet](https://physionet.org/content/mimiciii/), load MIMIC-III locally, and supply your own connection details. Install the dependencies with `setup.R`.
 
 ---
 
@@ -134,7 +134,8 @@ To reproduce: complete CITI training, obtain credentialed access via [PhysioNet]
 ```
 ├── Notebook/    MIMIC-III_HeartFailure.ipynb  (R, outputs cleared)
 ├── figures/     Aggregate LVEF distributions
-└── README.md
+├── README.md
+└── setup.R
 ```
 
 ---
