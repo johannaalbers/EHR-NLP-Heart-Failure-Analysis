@@ -25,7 +25,7 @@ This project does that, and is honest about where it breaks.
 
 ## What I did
 
-This project was developed as part of a group assignment.
+This project was developed as part of a group assignment. This project was developed as part of a group assignment. I was mainly responsible for part 2, 4 and 5.
 
 1. **Comorbidity analysis.** Queried co-occurring diagnoses around heart failure and interpreted the patterns clinically rather than just tabulating them.
 2. **Cohort construction (SQL).** Built a cohort of admissions where heart failure is the *primary* diagnosis, not merely present, so that the analysis is about heart failure patients rather than patients who happen to have it.
